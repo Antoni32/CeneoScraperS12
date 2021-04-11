@@ -15,6 +15,7 @@ try:
 except IndexError:
     recommendation = None
 stars = opinion.select("span.user-post__score-count").pop(0).get_text().strip()
+stars = float(stars.split("/")[0].replace(",","."))
 content = opinion.select("div.user-post__text").pop(0).get_text().strip()
 try:
     pros = opinion.select("")
@@ -26,7 +27,8 @@ try:
 except IndexError:
     cons = None
 try:
-    purchased = opinion.select("div.review-pz").pop(0).get_text().strip()
+    purchased = bool(opinion.select("div.review-pz").pop(0).get_text().strip())
+    
 submit_date = opinion.select("").pop(0).get_text().strip()
 purchase_date = opinion.select("").pop(0).get_text().strip()
 usefull = int(opinion.select("").pop(0).get_text().strip())
