@@ -11,12 +11,12 @@
 |Liczba gwiazdek|span.user-post__score-count|stars|float|
 |Treść opinii|div.user-post__text|content|str|
 |Lista zalet|div.review-feature__col:has(> div[class*="positives"]) > div.review-feature__item|pros|list|
-|Lista wad|cons|list|
+|Lista wad|div.review-feature__col:has(> div[class*="negatives"]) > div.review-feature__item|cons|list|
 |Czy potwierdzona zakupem|div.review-pz|purchased|bool|
-|Data wystawienia opinii|submit_date|str|
-|Data zakupu produktu|span.|purchase_date|str|
-|Dla ilu osób przydatna|useful|int|
-|Dla ilu osób nieprzydatna|useless|int|
+|Data wystawienia opinii|span.user-post__published > time:nth-child(1)["datetime"]|submit_date|str|
+|Data zakupu produktu|span.user-post__published > time:nth-child(2)["datetime"]|purchase_date|str|
+|Dla ilu osób przydatna|span[id^="votes-yes"]|useful|int|
+|Dla ilu osób nieprzydatna|span[id^="votes-no"]|useless|int|
 
 
 ### 2. pobranie składowych pojedynczej opinii 
