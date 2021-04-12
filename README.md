@@ -7,7 +7,7 @@
 |Opinia|div.js_product-review|opinion|obiekt bs4>elemnt.Tag|
 |ID opinii|['data-entry-id']|opinion_id|str|
 |Autor|span.user-post__author-name|author|str|
-|Rekomendacja|span.user-post__author-recommendation > em|recommencdation|bool|
+|Rekomendacja|span.user-post__author-recomendation > em|recommencdation|bool|
 |Liczba gwiazdek|span.user-post__score-count|stars|float|
 |Treść opinii|div.user-post__text|content|str|
 |Lista zalet|div.review-feature__col:has(> div[class*="positives"]) > div.review-feature__item|pros|list|
