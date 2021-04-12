@@ -19,11 +19,13 @@
 |Dla ilu osób nieprzydatna|span[id^="votes-no"]|useless|int|
 
 
-### 2. pobranie składowych pojedynczej opinii:
--pobranie kodu pojedycznej storny z opiniami 
--wyodrebnienie z kodu storny kodu pojedycznej opinii
--pobranie do pojedynczych zmiennych poszczególnych składowych na podstawie 
--obsługa błędów
--dobranie typów danych do wartości zmiennych
+### 2. pobranie składowych pojedynczej opinii
+- pobranie kodu pojedycznej storny z opiniami 
+- wyodrebnienie z kodu storny kodu pojedycznej opinii
+- pobranie do pojedynczych zmiennych poszczególnych składowych na podstawie 
+- obsługa błędów
+- dobranie typów danych do wartości zmiennych
 
-## Etap 2 Ekstracja wszystkich opinii o produkcie z pojedynczej strony:
+## Etap 2 Ekstracja wszystkich opinii o produkcie z pojedynczej strony
+
+## Etap 3 Ekstracja wszystkich opinii o produkcie z wszystkich stron
