@@ -1,5 +1,5 @@
 # CeneoScraperS12
-## Etap 1 Ekstrakcja
+## Etap 1 Ekstrakcja pojedynczej opinii, którego kod będzie wpisany w kodzie programu
 ### 1. analiza struktury opinii w serwisie [Ceneo.pl](https://www.ceneo.pl)
 
 |Składowa|Selektor CSS|Nazwa zmiennej|Typ danych|
@@ -27,5 +27,12 @@
 - dobranie typów danych do wartości zmiennych
 
 ## Etap 2 Ekstracja wszystkich opinii o produkcie z pojedynczej strony
+- zapis składowych pojedynczej opinii do słownika
+- zdefiniowanie listy do przechowywania wszystkich opinii o danym produkcie
+- dodanie pętli, która wykonuje operacje ekstrakcji dla wszystkich opinii pobranych z pojedynczej strony
 
 ## Etap 3 Ekstracja wszystkich opinii o produkcie z wszystkich stron
+- dodanie pętli, która pobiera i analizuje kolejne strony z opiniami o produkcie 
+- dodanie możliwości podania kodu produktu "z klawiatury" 
+- dodanie zapisu wszystkich opinii o produkcie do pliku .json
+- 
