@@ -2,6 +2,19 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
+def extract_element(opinion, selector, attribute=None):
+    try:
+        if attribute:
+            if isinstance(attribute, str):
+                return opinion.select(selector).pop(0)[attribute].strip()
+            else:
+                return #[x.get_text].stripfor x in opinion
+        else:
+            return opinion.select(selector).pop(0).get_text().strip()
+
+    except IndexError:
+        return None
+
 extracted_opinions = []
 
 product_id = input("Podaj kod produktu: ")
@@ -17,17 +30,22 @@ while next_page:
 
     for opinion in opinions:
         
-        opinion_id = opinion["data-entry-id"]
-
-        author = opinion.select("span.user-post__author-name").pop(0).get_text().strip()
+        opinion_elements= { key: extract_element(*args) for key, args in selectors.items()}
+        opinion_elements["opinion_id"] = opinion["data-entry-id"]
+        
+        author = extract_element(opinion,"span.user-post__author-name")
+        recommendation = opinion.select("span.user-post__author-recomendation > em").pop(0).get_text().strip()
+        
         try:
             recommendation = opinion.select("span.user-post__author-recomendation > em").pop(0).get_text().strip()
             recommendation = recommendation=="Polecam"
         except IndexError:
             recommendation = None
+        recommendation = recommendation == "Polecam"
         stars = opinion.select("span.user-post__score-count").pop(0).get_text().strip()
         stars = float(stars.split("/")[0].replace(",","."))
         content = opinion.select("div.user-post__text").pop(0).get_text().strip()
+        ######################################
         try:
             pros = opinion.select(
             "div.review-feature__col:has(> div[class*=\"positives\"]) > div.review-feature__item")
@@ -40,6 +58,7 @@ while next_page:
             cons = [x.get_text().strip() for x in cons]
         except IndexError:
             cons = None
+        ######################################################
         try:
             purchased = bool(opinion.select("div.review-pz").pop(0).get_text().strip())
         except IndexError:
@@ -55,18 +74,18 @@ while next_page:
         useless = int(opinion.select("span[id^='votes-no']").pop(0).get_text().strip())
 
         opinion_elements = {
-            "opinion_id" : opinion_id,
-            "author":author,
-            "recommendation":recommendation,
-            "stars":stars,
-            "content":content,
-            "pros":pros,
-            "cons":cons,
-            "purchased":purchased,
-            "submit_date":submit_date,
-            "purchase_date":purchase_date,
-            "useful":useful,
-            "useless": useless
+            "opinion_id" : ['data-entry-id'],
+            "author":["span.user-post__author-name"],
+            "recommendation":["span.user-post__author-recomendation > em"],
+            "stars":[],
+            "content":[],
+            "pros":[],
+            "cons":[],
+            "purchased":["div.review-pz"],
+            "submit_date":[],
+            "purchase_date":[],
+            "useful":["span[id^='votes-yes']"],
+            "useless":["span[id^='votes-no']"] 
             
         }
 
@@ -82,6 +101,3 @@ with open(f"./opinions/{product_id}.json","w", encoding ="UTF-8") as fp:
 
 
 #print(json.dumps(extracted_opinions, indent=4, ensure_ascii=False))
-
-
-

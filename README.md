@@ -35,4 +35,6 @@
 - dodanie pętli, która pobiera i analizuje kolejne strony z opiniami o produkcie 
 - dodanie możliwości podania kodu produktu "z klawiatury" 
 - dodanie zapisu wszystkich opinii o produkcie do pliku .json
+
+## Etap 4 Refactoring 
 - 
