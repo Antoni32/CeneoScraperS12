@@ -1,0 +1,20 @@
+[
+    {
+        "author": "p...y",
+        "recommendation": true,
+        "stars": 5.0,
+        "content": "Super",
+        "pros": [
+            "funkcjonalność",
+            "jakość",
+            "wytrzymałość"
+        ],
+        "cons": [],
+        "purchased": true,
+        "submit_date": "2021-03-31 13:41:29",
+        "purchase_date": "2021-03-23 21:21:16",
+        "useful": 0,
+        "useless": 0,
+        "opinion_id": "14209854"
+    }
+]

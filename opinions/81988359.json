@@ -1,6 +1,5 @@
 [
     {
-        "opinion_id": "11571708",
         "author": "Angelika",
         "recommendation": true,
         "stars": 5.0,
@@ -11,10 +10,10 @@
         "submit_date": "2020-01-12 21:35:17",
         "purchase_date": "2019-12-13 03:03:38",
         "useful": 3,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "11571708"
     },
     {
-        "opinion_id": "11730286",
         "author": "Użytkownik Ceneo",
         "recommendation": true,
         "stars": 5.0,
@@ -25,10 +24,10 @@
         "submit_date": "2020-02-12 13:00:31",
         "purchase_date": "2020-02-07 14:55:49",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "11730286"
     },
     {
-        "opinion_id": "12945833",
         "author": "m...a",
         "recommendation": true,
         "stars": 4.0,
@@ -39,10 +38,10 @@
         "submit_date": "2020-08-12 21:05:45",
         "purchase_date": "2020-07-20 20:16:24",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "12945833"
     },
     {
-        "opinion_id": "14175288",
         "author": "k...4",
         "recommendation": true,
         "stars": 5.0,
@@ -53,10 +52,10 @@
         "submit_date": "2021-03-24 22:19:22",
         "purchase_date": "2021-03-10 10:35:46",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "14175288"
     },
     {
-        "opinion_id": "12813331",
         "author": "m...c",
         "recommendation": true,
         "stars": 5.0,
@@ -67,10 +66,10 @@
         "submit_date": "2020-07-16 13:12:21",
         "purchase_date": "2020-07-02 12:32:59",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "12813331"
     },
     {
-        "opinion_id": "13138492",
         "author": "l...3",
         "recommendation": true,
         "stars": 5.0,
@@ -81,10 +80,10 @@
         "submit_date": "2020-09-28 22:33:15",
         "purchase_date": "2020-09-16 17:18:18",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "13138492"
     },
     {
-        "opinion_id": "13789159",
         "author": "b...o",
         "recommendation": true,
         "stars": 5.0,
@@ -95,10 +94,10 @@
         "submit_date": "2021-01-18 10:20:24",
         "purchase_date": "2021-01-11 10:00:47",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "13789159"
     },
     {
-        "opinion_id": "12903623",
         "author": "s...8",
         "recommendation": true,
         "stars": 4.5,
@@ -109,10 +108,10 @@
         "submit_date": "2020-08-05 09:32:17",
         "purchase_date": "2020-07-17 11:00:12",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "12903623"
     },
     {
-        "opinion_id": "11869657",
         "author": "Użytkownik Ceneo",
         "recommendation": true,
         "stars": 4.5,
@@ -123,10 +122,10 @@
         "submit_date": "2020-03-08 18:12:46",
         "purchase_date": "2020-02-27 06:04:54",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "11869657"
     },
     {
-        "opinion_id": "13717185",
         "author": "e...2",
         "recommendation": false,
         "stars": 0.5,
@@ -137,10 +136,10 @@
         "submit_date": "2021-01-05 22:42:27",
         "purchase_date": "2020-12-23 23:35:58",
         "useful": 1,
-        "useless": 7
+        "useless": 7,
+        "opinion_id": "13717185"
     },
     {
-        "opinion_id": "13581742",
         "author": "n...l",
         "recommendation": null,
         "stars": 3.5,
@@ -151,10 +150,10 @@
         "submit_date": "2020-12-15 16:09:18",
         "purchase_date": "2020-12-03 17:04:23",
         "useful": 0,
-        "useless": 3
+        "useless": 3,
+        "opinion_id": "13581742"
     },
     {
-        "opinion_id": "13169212",
         "author": "A...0",
         "recommendation": true,
         "stars": 5.0,
@@ -165,10 +164,24 @@
         "submit_date": "2020-10-07 08:07:51",
         "purchase_date": "2020-09-18 16:40:14",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "13169212"
     },
     {
-        "opinion_id": "11948605",
+        "author": "m...6",
+        "recommendation": true,
+        "stars": 5.0,
+        "content": "Dobrą cena, spełnia oczekiwania",
+        "pros": [],
+        "cons": [],
+        "purchased": true,
+        "submit_date": "2021-04-20 21:33:44",
+        "purchase_date": "2021-03-31 10:30:44",
+        "useful": 0,
+        "useless": 0,
+        "opinion_id": "14325841"
+    },
+    {
         "author": "Użytkownik Ceneo",
         "recommendation": true,
         "stars": 5.0,
@@ -179,10 +192,10 @@
         "submit_date": "2020-03-20 12:11:37",
         "purchase_date": "2020-03-10 11:28:25",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "11948605"
     },
     {
-        "opinion_id": "13039199",
         "author": "Użytkownik Ceneo",
         "recommendation": true,
         "stars": 5.0,
@@ -193,10 +206,10 @@
         "submit_date": "2020-09-02 21:56:43",
         "purchase_date": "2020-08-23 22:02:36",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "13039199"
     },
     {
-        "opinion_id": "12516190",
         "author": "531139601",
         "recommendation": true,
         "stars": 5.0,
@@ -207,10 +220,10 @@
         "submit_date": "2020-05-26 09:01:00",
         "purchase_date": "2020-05-20 14:16:20",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "12516190"
     },
     {
-        "opinion_id": "12533205",
         "author": "s...1",
         "recommendation": true,
         "stars": 5.0,
@@ -221,10 +234,10 @@
         "submit_date": "2020-05-27 22:43:51",
         "purchase_date": "2020-05-16 12:25:11",
         "useful": 0,
-        "useless": 1
+        "useless": 1,
+        "opinion_id": "12533205"
     },
     {
-        "opinion_id": "14026198",
         "author": "l...h",
         "recommendation": true,
         "stars": 5.0,
@@ -235,10 +248,10 @@
         "submit_date": "2021-02-26 12:35:03",
         "purchase_date": "2021-02-22 19:30:16",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "14026198"
     },
     {
-        "opinion_id": "11887785",
         "author": "Użytkownik Ceneo",
         "recommendation": true,
         "stars": 5.0,
@@ -249,10 +262,10 @@
         "submit_date": "2020-03-11 20:34:09",
         "purchase_date": "2020-02-24 18:20:58",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "11887785"
     },
     {
-        "opinion_id": "12589900",
         "author": "s...4",
         "recommendation": true,
         "stars": 5.0,
@@ -263,10 +276,10 @@
         "submit_date": "2020-06-04 17:55:12",
         "purchase_date": "2020-05-30 18:45:13",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "12589900"
     },
     {
-        "opinion_id": "13769783",
         "author": "f...5",
         "recommendation": true,
         "stars": 5.0,
@@ -277,10 +290,10 @@
         "submit_date": "2021-01-14 11:48:11",
         "purchase_date": "2020-12-13 20:35:15",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "13769783"
     },
     {
-        "opinion_id": "11901248",
         "author": "Użytkownik Ceneo",
         "recommendation": true,
         "stars": 5.0,
@@ -291,10 +304,10 @@
         "submit_date": "2020-03-13 12:31:17",
         "purchase_date": "2020-03-10 13:15:14",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "11901248"
     },
     {
-        "opinion_id": "11673227",
         "author": "Użytkownik Ceneo",
         "recommendation": true,
         "stars": 5.0,
@@ -305,10 +318,10 @@
         "submit_date": "2020-01-31 12:13:34",
         "purchase_date": "2020-01-15 19:05:29",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "11673227"
     },
     {
-        "opinion_id": "12750914",
         "author": "a...5",
         "recommendation": true,
         "stars": 5.0,
@@ -319,10 +332,10 @@
         "submit_date": "2020-07-02 13:29:46",
         "purchase_date": "2020-06-17 17:38:20",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "12750914"
     },
     {
-        "opinion_id": "11574286",
         "author": "Paulina",
         "recommendation": true,
         "stars": 5.0,
@@ -333,10 +346,10 @@
         "submit_date": "2020-01-13 12:08:41",
         "purchase_date": "2019-12-13 11:10:46",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "11574286"
     },
     {
-        "opinion_id": "13261062",
         "author": "z...m",
         "recommendation": true,
         "stars": 5.0,
@@ -347,10 +360,10 @@
         "submit_date": "2020-10-23 09:22:20",
         "purchase_date": "2020-10-12 13:53:03",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "13261062"
     },
     {
-        "opinion_id": "13965940",
         "author": "j...2",
         "recommendation": true,
         "stars": 5.0,
@@ -361,10 +374,10 @@
         "submit_date": "2021-02-16 19:06:08",
         "purchase_date": "2021-02-04 10:14:00",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "13965940"
     },
     {
-        "opinion_id": "11492311",
         "author": "Użytkownik Ceneo",
         "recommendation": true,
         "stars": 4.5,
@@ -375,10 +388,10 @@
         "submit_date": "2019-12-27 18:58:43",
         "purchase_date": "2019-12-09 23:20:10",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "11492311"
     },
     {
-        "opinion_id": "12031973",
         "author": "Kasia",
         "recommendation": true,
         "stars": 4.5,
@@ -389,10 +402,10 @@
         "submit_date": "2020-04-01 12:43:30",
         "purchase_date": "2020-03-01 16:05:22",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "12031973"
     },
     {
-        "opinion_id": "12106486",
         "author": "Użytkownik Ceneo",
         "recommendation": true,
         "stars": 5.0,
@@ -403,10 +416,10 @@
         "submit_date": "2020-04-09 13:11:54",
         "purchase_date": "2020-03-21 17:55:07",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "12106486"
     },
     {
-        "opinion_id": "13017234",
         "author": "t...2",
         "recommendation": true,
         "stars": 4.0,
@@ -417,10 +430,10 @@
         "submit_date": "2020-08-28 11:20:24",
         "purchase_date": "2020-08-25 07:02:28",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "13017234"
     },
     {
-        "opinion_id": "12938336",
         "author": "g...5",
         "recommendation": true,
         "stars": 5.0,
@@ -431,10 +444,10 @@
         "submit_date": "2020-08-11 16:58:21",
         "purchase_date": "2020-07-28 12:35:20",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "12938336"
     },
     {
-        "opinion_id": "12588060",
         "author": "Konrad",
         "recommendation": null,
         "stars": 3.5,
@@ -445,10 +458,10 @@
         "submit_date": "2020-06-04 12:58:02",
         "purchase_date": "2020-06-01 15:15:25",
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "12588060"
     },
     {
-        "opinion_id": "11450879",
         "author": "lech",
         "recommendation": true,
         "stars": 5.0,
@@ -459,10 +472,10 @@
         "submit_date": "2019-12-18 14:46:00",
         "purchase_date": "2019-11-28 13:15:19",
         "useful": 0,
-        "useless": 1
+        "useless": 1,
+        "opinion_id": "11450879"
     },
     {
-        "opinion_id": "10932730",
         "author": "Przemek",
         "recommendation": true,
         "stars": 5.0,
@@ -473,10 +486,10 @@
         "submit_date": "2019-08-19 08:33:04",
         "purchase_date": null,
         "useful": 0,
-        "useless": 1
+        "useless": 1,
+        "opinion_id": "10932730"
     },
     {
-        "opinion_id": "11885117",
         "author": "Krzysztof",
         "recommendation": true,
         "stars": 5.0,
@@ -487,6 +500,7 @@
         "submit_date": "2020-03-11 15:06:01",
         "purchase_date": null,
         "useful": 0,
-        "useless": 0
+        "useless": 0,
+        "opinion_id": "11885117"
     }
 ]
