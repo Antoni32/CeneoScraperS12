@@ -1,6 +1,6 @@
 # CeneoScraperS12
 ## Etap 1 Ekstrakcja pojedynczej opinii, którego kod będzie wpisany w kodzie programu
-### 1. analiza struktury opinii w serwisie [Ceneo.pl](https://www.ceneo.pl)
+### 1. Analiza struktury opinii w serwisie [Ceneo.pl](https://www.ceneo.pl)
 
 |Składowa|Selektor CSS|Nazwa zmiennej|Typ danych|
 |--------|------------|--------------|----------|
@@ -19,7 +19,7 @@
 |Dla ilu osób nieprzydatna|span[id^="votes-no"]|useless|int|
 
 
-### 2. pobranie składowych pojedynczej opinii
+### 2. Pobranie składowych pojedynczej opinii
 - pobranie kodu pojedycznej storny z opiniami 
 - wyodrebnienie z kodu storny kodu pojedycznej opinii
 - pobranie do pojedynczych zmiennych poszczególnych składowych na podstawie 
@@ -37,4 +37,20 @@
 - dodanie zapisu wszystkich opinii o produkcie do pliku .json
 
 ## Etap 4 Refactoring 
-- 
+- zdefiniowanie funkcji do ekstrakcji pojedynczego elementu opinii
+- przygotowanie słownika opisuącego składowe opinii wraz z ich selektorami 
+- tworzenie słownika reprezentującego pojedynczą opinię przy wykorzystaniu wyrażenia słownikowego 
+(dictionary comprehension) 
+
+## Etap 5 analiza statystyczna zbioru opinii o produkcie 
+- wyświetlanie listy produktów, dla których pobrane zostały opinie 
+- wczytanie opinii o wskazanym produkcie do obiektu DataFrame
+- obliczenie podstawowych statystyk
+    * średnia ocena produktu 
+    * liczba opinii o produkcie 
+    * liczba opinii dla których podana została liczba zalet 
+    * liczba opinii dla których podana została liczba wad
+
+## Etap 6 Rysowanie wykresów opartych o dane z pobranych opinii
+- wykres słupkowy/kolumnowy obrazujący czestość występowania opinii z poszczególnymi ocenami
+- wykres kołowy obrazujący udział poszczególnych rodzajów rekomendacji w zbiorze opinii
